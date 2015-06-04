@@ -45,8 +45,8 @@ public class DawnAndroidLinks {
 		static String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
 	    int counter=1;
 		String local=(new java.io.File("").getAbsolutePath());
-		String data="" + local + "/" + "url_link.csv";	
-		String data2="" + local + "/" + "url_link.csv";	
+		String data="" + local + "/" + "dawn.csv";	
+		String data2="" + local + "/" + "dawn.csv";	
 		String myTitle;
 		String csvFileToRead;
 	    String safe = "http://10.10.10.34:8080/job/TESTNG33/ws/PageLoads";
